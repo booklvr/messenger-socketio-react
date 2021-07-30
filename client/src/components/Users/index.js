@@ -3,8 +3,6 @@ import UserAvatar from '../UserAvatar'
 import { UserBox, UserList } from './styled'
 
 const Users = ({ users }) => {
-  console.log('Users')
-  console.log('users', users)
   return users.length > 0 ? (
     <div>
       <h2>Also in this room:</h2>

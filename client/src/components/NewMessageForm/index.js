@@ -14,15 +14,11 @@ const NewMessageForm = ({
         type='text'
         value={newMessage}
         onChange={handleNewMessageChange}
-        placeholder='Aa'
+        placeholder='Enter your new message here'
         onKeyPress={handleStartTyping}
         onKeyUp={handleStopTyping}
       />
-      <Button
-        type='submit'
-        onClick={handleSendMessage}
-        className='send-message-button'
-      >
+      <Button type='submit' onClick={handleSendMessage}>
         Send
       </Button>
     </Form>

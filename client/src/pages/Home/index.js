@@ -4,7 +4,9 @@ import { EnterRoomButton, HomeContainer, Input } from './styled'
 const Home = () => {
   const [roomName, setRoomName] = useState('')
 
-  const handleRoomChange = (e) => setRoomName(e.target.value)
+  const handleRoomChange = (e) => {
+    setRoomName(e.target.value)
+  }
 
   return (
     <HomeContainer>
